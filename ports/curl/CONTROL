@@ -2,6 +2,7 @@ Source: curl
 Version: 7.70.0
 Build-Depends: zlib, brotli, nghttp2
 Description: A library for transferring data with URLs
+Default-Features: ssl, ipv6
 
 Feature: ssl
 Build-Depends: libressl
